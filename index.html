@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aduke &amp; Adisa | Family Introduction</title>
+<meta name="description" content="The families of Balogun and Ojikutu invites you to the introduction of Aduke and Adisa, Sunday 29th November 2026.">
+<meta property="og:title" content="Aduke & Adisa | Family Introduction">
+<meta property="og:description" content="Sunday 29th November 2026, 10:00 AM, Surulere, Lagos. RSVP here.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <p class="invite serif">The families of <b>Balogun</b> and <b>Ojikutu</b><br>invite you to the introduction of</p>
+  <h1>Aduke &amp; Adisa</h1>
+  <div class="orn"><i></i>&#9670;<i></i></div>
+  <div class="date">Sunday, 29th November 2026 &middot; 10:00 AM</div>
+  <p class="addr">2, Akintayo Akinbola Street, off Adeonitimirin, Chief Natufe, Babs Animashaun, Surulere, Lagos</p>
+  <nav>
+    <a href="#story">Our story</a>
+    <a href="#events">Events</a>
+    <a href="#rsvp" class="btn">RSVP</a>
+  </nav>
+</header>
+
+<section id="countdown">
+  <div class="tag">Counting down to our introduction</div>
+  <div class="cd" id="cd" aria-live="off"></div>
+</section>
+
+<section id="story">
+  <h2>Our story</h2>
+  <div class="orn"><i></i>&#9670;<i></i></div>
+  <p class="muted">Two families, one beautiful journey. Our story goes here: how we met, how Rasheed asked, and what this next chapter means to us.</p>
+</section>
+
+<section id="events">
+  <h2>The celebrations</h2>
+  <div class="orn"><i></i>&#9670;<i></i></div>
+  <div class="card">
+    <div class="tag"> Mọ̀mímọ̀ Àdùkẹ́ àti Àdìsá
+    </div>
+    
+    <div>Sunday, 29th November 2026 &middot; 10:00 AM</div>
+    <div class="muted mt">2, Akintayo Akinbola Street, off Adeonitimirin, Chief Natufe, Babs Animashaun, Surulere, Lagos</div>
+    <a class="maplink" target="_blank" rel="noopener" href="https://maps.app.goo.gl/ckqjvypg8P9KJenw9?g_st=ic">Open in Google Maps</a>
+  </div>
+  <div class="card">
+    <div class="tag">Wedding</div>
+    <div class="muted">Date and venue to be announced</div>
+  </div>
+</section>
+
+<section id="rsvp">
+  <h2>RSVP</h2>
+  <div class="orn"><i></i>&#9670;<i></i></div>
+  <p class="muted">Kindly let us know if you&rsquo;ll be joining us on Sunday, 29th November 2026.</p>
+  <form id="rsvp-form" novalidate>
+    <label for="name">Full name</label>
+    <input id="name" name="name" required maxlength="80" autocomplete="name">
+    <label for="attending">Will you attend?</label>
+    <select id="attending" name="attending">
+      <option value="Yes">Joyfully accepts</option>
+      <option value="No">Regretfully declines</option>
+    </select>
+    <label for="guests">Number of guests (including you)</label>
+    <input id="guests" name="guests" type="number" min="1" max="10" value="1">
+    <label for="message">Message (optional)</label>
+    <textarea id="message" name="message" rows="3" maxlength="300"></textarea>
+    <input type="text" name="website" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+    <button class="go" type="submit">Send RSVP</button>
+    <p class="note" id="status" role="status"></p>
+  </form>
+</section>
+
+<footer class="serif">With love and warm wishes, thank you for celebrating with us.<br><span>Sarat &amp; Rasheed</span></footer>
+<script src="script.js"></script>
+</body>
+</html>
